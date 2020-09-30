@@ -6,6 +6,8 @@ var list = [
     'coder girl (noun)\nA girl with magical powers who can hack your day.\nSynonyms: sorceress, witch, fairy, Luca'
 ];
 
+console.log(list.length + ' elem betöltve');
+
 document.getElementById('fab').addEventListener('click', () => {
     text.innerText = list[Math.floor(Math.random() * list.length)];
 });
