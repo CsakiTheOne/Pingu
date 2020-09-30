@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: #FF0080;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
 
 h1, h2, h3 {
     text-align: center;
+    margin: 0 32px;
 }
 
 img {
@@ -31,6 +32,7 @@ img {
     border-radius: 100%;
     transform: translateX(-50%);
     font-size: 2em;
+    color: white;
 }
 
 .space {
