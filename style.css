@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background: #283238;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+#fab {
+    display: block;
+    position: fixed;
+    padding: 24px 32px;
+    left: 50%;
+    bottom: 32px;
+    border: none;
+    outline: none;
+    background: #0080FF;
+    border-radius: 100%;
+    transform: translateX(-50%);
+    font-size: 2em;
+}
+
+.space {
+    display: block;
+    height: 12vh;
+}
